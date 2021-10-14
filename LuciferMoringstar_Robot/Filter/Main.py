@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Main channel', url='https://t.me/joinchat/NGvoejZMNlQ5Mjg1'),
                 InlineKeyboardButton('New Release', url="https://t.me/all_movie_New_Released")
                 ],[
-                InlineKeyboardButton('💫Deploy Video💫', url=f'{TUTORIAL}')
+                InlineKeyboardButton('🔰 Main Channel 🔰', url=f'{TUTORIAL}')
                 ]]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
@@ -323,7 +323,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('💫 DEPLOY VIDEO 💫', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🔰 Main Channel 🔰', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -354,7 +354,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🔰 Main Channel 🔰', url=f'{TUTORIAL}')
                     ]
                     ]
                 
